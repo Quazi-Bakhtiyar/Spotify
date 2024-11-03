@@ -1,0 +1,238 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#000;
+    color:white;
+    overflow:hidden;
+}
+.main{
+    display:flex;
+    height:100vh;
+    background-color:black;
+    margin:10px;
+}
+.sidebar{
+    background-color:red;
+    width:22%;
+    height:100%;
+    border-radius:1rem;
+    background-color:black;
+    margin-right:40px;
+       
+}
+.main-content{
+    color:white;
+    flex:1;
+    border-radius:1rem;
+    overflow:auto;  
+    background-color:#121212;
+    padding: 0 1.5rem 0 1.5rem;
+    
+}
+.player{
+    background-color:red;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:72px;
+}
+
+.nav-ops a{
+    text-decoration:none;
+    color:white;
+    margin-left: 1rem;
+}
+
+.box-1{
+    
+    width:100%;
+    background-color:#121212;    
+    border:2px solid #121212;
+    border-radius:1rem;
+    padding:0.5rem 0.75rem;
+}
+
+.nav-ops{
+    line-height:40px;
+    font-size:1.25rem;
+    opacity:0.7;
+    padding:0.5rem;
+    padding:0.5rem 0.75rem;
+
+}
+
+.nav-ops i{
+    font-size:1.25rem;
+    
+}
+
+.spotify img{
+    height:1.75rem;
+    width:1.75rem;
+    margin-right:12px;
+}
+.spotify{
+    display:flex;
+    align-items:center;
+    width:100%;
+    line-height:1rem;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.library{
+    width: 100%;
+    background-color: #121212;
+    border: 2px solid #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    margin-top:0.5rem;
+    height:100%;
+    
+   
+}
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.library .lib-option img{
+    height:1.25rem;
+    width:1.25rem;
+   
+}
+
+.icons{
+    font-size:1.25rem;
+    display:flex;
+}
+.icons i{
+    opacity:0.7;
+    margin-right:1rem;
+
+}
+.icons i:hover{
+    opacity:1;
+
+}
+
+.library .boxes{
+    width:100%;
+    background-color:#232323;
+    border-radius:1rem;
+    border:2px solid #232323;
+    margin-top:1.5rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+
+}
+.boxes .p1{
+    font-size:1.28rem;
+    font-weight:700;
+    margin-bottom:16px;
+    margin-top:4px;
+    margin-left:1.2rem;
+}
+.boxes .p2{
+    font-size:1.1rem;
+    opacity:0.8;
+    margin-bottom:16px;
+    margin-left:1.2rem;
+    margin-top:10px;
+}
+.boxes .p2:hover{
+    opacity:1;
+}
+.badge{
+    border-radius:44px;
+    /* width: 180px;
+    height:40px; */
+    font-size:1.2rem;
+    font-weight:600;
+    margin-top:12px;
+    margin-left:1.2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border:none;
+}
+.sticky-nav{
+    position: sticky;
+    top:0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px;
+    background-color:#121212;
+    height:4rem;
+    z-index:100;
+}
+.sticky-nav img{
+    height:1.75rem;
+    width:1.75rem;
+    margin-left:5px;
+}
+
+.nav-options{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-options .button1{
+    background-color: white;
+    color:black;
+}
+.nav-options .button2{
+    background-color: black;
+    color:white;
+}
+.button1 , .button2{
+    margin-right:1rem;
+}
+.button2{
+    width:200px;
+    height: 44px;
+}
+
+.card{
+    background-color:#232323;
+    width:250px;
+    height:400px;
+    border-radius:1rem;
+    padding:1rem;
+    margin-left:1.5rem;
+    margin-top:1rem;
+}
+.card img{
+    border-radius:1rem;
+    width:100%;
+    
+}
+h2{
+    padding-left:1.5rem;
+}
+
+.cards-container{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.card-title{
+    font-size:1.5rem;
+    font-weight:600;
+    margin-bottom:15px;
+}
+.card-info{
+    font-size: 1.1rem;
+    opacity:0.7;
+}
+.card-info:hover{
+    opacity:1;
+}
